@@ -44,7 +44,7 @@ public class MathUltiTest {
         //Vì hàm này cần 2 value expected và actual
         //trong khi đó ném ra ngoại lệ k phải là actual values để so sánh
         //ta phải xài chiêu khác khi bắt ngoại lệ coi có đúng là ngoại lệ mình cần k 
-        //computeFactorial(-5);
+        computeFactorial(-5);
         computeFactorial(16);// giai thua tang rat nhanh nen khong choi qua 15
     }
     

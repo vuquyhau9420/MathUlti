@@ -15,7 +15,7 @@ public class MathUlti {
     //tính n! = 1.2.3.4...n Vì n! tăng giá trị tăng rất nhanh nên ta phải dùng long mới an toàn
     //int tối đa 2 tỷ 1
     public static long computeFactorial(int n){
-        if(n < 0 )
+        if(n < 0  || n > 15 )
             throw new IllegalArgumentException("Invaid input, n must be >= 0");
         long result = 1;
         for (int i = 1; i <= n; i++) {
